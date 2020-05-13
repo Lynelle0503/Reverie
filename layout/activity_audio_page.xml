@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_anim"
+    tools:context=".AudioPage"
+    android:id="@+id/audiobg">
+
+  <TextView
+      android:id="@+id/songtitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:text="Song Title"
+      android:layout_marginTop="30dp"
+      android:textColor="@color/colorPrimaryDark"
+      android:textSize="24sp" />
+
+  <Button
+      android:id="@+id/playbtn"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_below="@+id/songtitle"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="50dp"
+      android:background="@drawable/playwhite" />
+  <Button
+      android:id="@+id/pausebtn"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_below="@+id/songtitle"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="50dp"
+      android:layout_alignParentLeft="true"
+      android:layout_marginLeft="80dp"
+      android:background="@drawable/pausewhitw" />
+  <Button
+      android:id="@+id/stopbtn"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_below="@+id/songtitle"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="50dp"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="80dp"
+      android:background="@drawable/stop" />
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/playbtn"
+      android:layout_marginTop="30dp"
+      android:orientation="vertical">
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Audios" />
+
+    <ListView
+        android:id="@+id/music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stopbtn"
+        android:layout_marginTop="20dp"
+        />
+  </LinearLayout>
+
+</RelativeLayout>

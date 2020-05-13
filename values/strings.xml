@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Reverie</string>
+
+    <string name="title_activity_user__location">Map</string>
+    <string name="Policy">
+        Reverie.in built the Reverie app as an Open Source app.
+        This SERVICE is provided by Reverie.in at no cost and is intended for use as is.
+
+        This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+
+        If you choose to use our Service, then you agree to the collection and use of information in relation to this policy.
+        The Personal Information that we collect is used for providing and improving the Service.
+        We will not use or share your information with anyone except as described in this Privacy Policy.
+
+        The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Reverie unless otherwise defined in this Privacy Policy.
+    </string>
+    <string name="terms">
+        By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Reverie.in.
+    </string>
+    <string name="about">
+        App Privacy Policy Generator is a simple webapp that can be used to generate generic Privacy Policy and Terms &amp; Conditions for your apps.
+
+Connect with Nishant at Github Twitter Medium Linkedin
+Credits to Ali Muzaffar for editting out the base template for the Privacy Policy, you should read his blog post about it here.
+
+If you would like to request for more options of choosing privacy policy by third party services, please open an request issue on github.. Make sure to include the link to privacy policy you wish to be added.
+    </string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>
